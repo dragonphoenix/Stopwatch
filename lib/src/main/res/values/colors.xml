@@ -1,0 +1,6 @@
+<resources>
+    <color name="highlight_line">#FF68C5D7</color>
+    <color name="highlight_line1">#8f68c5d7</color>
+    <color name="highlight_line2">#4168c5d7</color>
+    <color name="triangle">#d223677e</color>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="radius">140dp</dimen>
+    <dimen name="line_length">15dp</dimen>
+    <dimen name="circle_line_margin">2dp</dimen>
+    <dimen name="triangle_space">15dp</dimen>
+    <dimen name="triangle_height">10dp</dimen>
+    <dimen name="text_size">25sp</dimen>
+</resources>
