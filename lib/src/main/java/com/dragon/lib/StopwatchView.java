@@ -223,9 +223,12 @@ public class StopwatchView extends View {
     }
 
     private void drawText(Canvas canvas, float cx, float cy) {
-        float width = mBound.width();
-        float height = mBound.height();
+        float width;
+        float height;
+
         mTextPaint.getTextBounds(mTimerTime, 0, mTimerTime.length(), mBound);
+        width = mBound.width();
+        height = mBound.height();
 
         canvas.drawText(mTimerTime, cx - width / 2, cy + height / 2, mTextPaint);
     }
